@@ -1,0 +1,21 @@
+# 依存パッケージ（npm ci で入れ直せる）
+node_modules/
+
+# 秘密情報（絶対にコミットしない）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Replit・エディタ・OS のファイル
+.replit.local
+.cache/
+.upm/
+.config/
+.DS_Store
+Thumbs.db
+
+# ログ・一時ファイル
+*.log
+npm-debug.log*
